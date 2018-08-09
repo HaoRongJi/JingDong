@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">JingDong</string>
+    <string name="app_name">京东</string>
+    <string name="rab1">首页</string>
+    <string name="rab2">分类</string>
+    <string name="rab3">发现</string>
+    <string name="rab4">购物车</string>
+    <string name="rab5">我的</string>
 </resources>
