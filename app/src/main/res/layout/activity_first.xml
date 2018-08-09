@@ -21,34 +21,48 @@
         android:orientation="horizontal">
 
         <RadioButton
-
+            android:gravity="center"
             android:text="@string/rab1"
             android:id="@+id/rab1_btn"
             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
             android:layout_height="match_parent" />
 
         <RadioButton
+            android:gravity="center"
             android:text="@string/rab2"
             android:id="@+id/rab2_btn"
             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
             android:layout_height="match_parent" />
 
         <RadioButton
+            android:gravity="center"
             android:text="@string/rab3"
             android:id="@+id/rab3_btn"
             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
             android:layout_height="match_parent" />
 
         <RadioButton
+            android:gravity="center"
             android:text="@string/rab4"
             android:id="@+id/rab4_btn"
             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
             android:layout_height="match_parent" />
 
         <RadioButton
+            android:gravity="center"
             android:text="@string/rab5"
             android:id="@+id/rab5_btn"
             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
             android:layout_height="match_parent" />
 
 
