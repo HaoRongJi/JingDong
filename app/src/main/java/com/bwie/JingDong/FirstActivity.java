@@ -11,11 +11,13 @@ public class FirstActivity extends BaseActivity {
     @Override
     protected void initData() {
 
+
+
     }
 
     @Override
     protected void ininView() {
-
+        findViewById(R.id.frame_layout);
     }
 
     @Override

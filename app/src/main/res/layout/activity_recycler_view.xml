@@ -4,14 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.bwie.JingDong.RecyclerViewActivity">
 
-    <ImageView
-        android:id="@+id/first_img"
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/product_xrv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/jd_shouye"
-        />
-
+        android:layout_height="wrap_content"></com.jcodecraeer.xrecyclerview.XRecyclerView>
 
 </LinearLayout>
