@@ -21,7 +21,10 @@
         <activity
             android:name=".FirstActivity"
             android:theme="@style/MyStyle" />
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".activity.LoginActivity"
+            android:theme="@style/MyStyle"
+            ></activity>
     </application>
 
 </manifest>
