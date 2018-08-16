@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 
 import com.bwie.JingDong.R;
 import com.bwie.JingDong.activity.LoginActivity;
+import com.tencent.bugly.crashreport.CrashReport;
 
 public class FivthFragment extends Fragment {
 
@@ -38,6 +39,7 @@ public class FivthFragment extends Fragment {
 
     private void initView() {
         LogAndRegTv = view.findViewById(R.id.log_reg_tv);
+
     }
 
     private void initData() {

@@ -1,12 +1,14 @@
 package com.bwie.JingDong.fragment;
 
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.bwie.JingDong.R;
+import com.tencent.bugly.crashreport.CrashReport;
 
 public class ThirdFragment extends Fragment {
 
@@ -17,4 +19,8 @@ public class ThirdFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_third, container, false);
     }
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
 }

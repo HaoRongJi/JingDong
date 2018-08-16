@@ -2,7 +2,47 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:background="#f00"
     android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_toLeftOf="@id/procontent_et"
+            android:layout_marginRight="-35dp"
+            android:background="@drawable/ah5"
+            android:layout_width="30dp"
+            android:layout_centerVertical="true"
+            android:layout_height="30dp" />
+
+        <EditText
+            android:id="@+id/procontent_et"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/edit_shape"
+            android:layout_marginTop="20dp"
+            android:hint="请输入想搜索的商品"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-35dp"
+            android:layout_toRightOf="@id/procontent_et"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ag_" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/app_home_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+
 
 </LinearLayout>

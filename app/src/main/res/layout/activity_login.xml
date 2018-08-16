@@ -1,9 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.bwie.JingDong.activity.LoginActivity">
+    android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/back_img"
+            android:layout_margin="15dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/node_modules_jdreact_jdreactnavigation_src_views_assets_backicon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
+
+        <TextView
+            android:text="登录"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="60dp"
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="账号"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+            <EditText
+                android:id="@+id/username_et"
+                android:background="@android:color/transparent"
+                android:layout_marginLeft="35dp"
+                android:layout_width="match_parent"
+                android:hint="用户名/邮箱/手机号"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="#D3D3D3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="密码"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/password_et"
+                    android:layout_toLeftOf="@id/eye_btn"
+                    android:background="@android:color/transparent"
+                    android:layout_marginLeft="35dp"
+                    android:layout_width="match_parent"
+                    android:hint="请输入密码"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:id="@+id/eye_btn"
+                    android:src="@drawable/password_selector"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="match_parent"
+            android:background="#D3D3D3"
+            android:layout_height="1px"/>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="登陆"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:background="@drawable/ad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
